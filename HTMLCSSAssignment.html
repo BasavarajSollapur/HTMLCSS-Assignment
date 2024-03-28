@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Headings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #f95959;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .heading-container {
+      margin: 0 -10px; 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .heading {
+      margin: 10px; 
+      background-color: #f95959; 
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+    .heading h1 {
+      font-size: 1.25em; 
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin: 0;
+      padding: 0;
+      color: black; 
+    }
+
+    .icon {
+      width: 20px; 
+      height: auto; 
+      margin-left: 5px; 
+    }
+
+    .content {
+      display: flex;
+      padding: 0px;
+    }
+
+    .content .left,
+    .content .right {
+      flex: 1;
+      padding: 0 0px; 
+    }
+
+    .left {
+      background-color: #ffe5b4; 
+      background-image: linear-gradient(to bottom right, #ffe5b4, #ffc0cb); 
+      border-radius: 5px; 
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 1.5;
+    }
+
+    .image {
+      max-width: 130%;
+      height: auto;
+    }
+
+    .button {
+      margin-right: 290px;
+      background-color: #f95959; 
+      border: none;
+      color: white;
+      padding: 10px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="heading-container">
+      <div class="heading">
+        <h1>HOME</h1>
+      </div>
+
+      <div class="heading">
+        <h1>ORDER</h1>
+      </div>
+
+      <div class="heading">
+        <h1>FOOD</h1>
+      </div>
+
+      <div class="heading">
+        <h1>RESTAURANT</h1>
+      </div>
+
+      <div class="heading">
+        <h1>TESTIMONIALS</h1>
+      </div>
+
+      <div class="heading">
+        <h1>CONTACT US</h1>
+        <img src="C:\Users\basav\Desktop\Aictee\java\javascript\HTML CSS Assignment\HTML CSS Assignment\menu-bar.png" alt="Contact Icon" class="icon">
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="left">
+      <p>
+        <h1>LOREM IPSUM</h1>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus<br> id est vitae dolor rhoncus tristique. Maecenas metus quam,<br>
+        rhoncus euismod lorem in, sollicitudin viverra eros. Donec<br> dictum luctus quam ut tristique. Curabitur nec faucibus purus.<br>
+        Quisque congue sem nec justo mollis, in tincidunt erat pretium.<br> Sed pulvinar, massa ac porta viverra.
+      </p>
+      <button class="button">Click Me</button>
+    </div>
+    <div class="right">
+      <img class="image" src="C:\Users\basav\Desktop\Aictee\java\javascript\HTML CSS Assignment\HTML CSS Assignment\pexels-robin-stickel-70497.jpg" alt="Right Image">
+    </div>
+  </div>
+</body>
+</html>
